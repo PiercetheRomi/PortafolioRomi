@@ -9,45 +9,73 @@
   <link rel="stylesheet" href="/css/style.css">
   <title>Portafolio Romina Angel</title>
   
+  
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   
 </head>
 <body>
 
-  <header>
-    <div class="header">
-    <h1>Romina Angel</h1> 
-    </div>
-</header>
+    <header>
+        <div class="header">
+         <h1>Romina Angel</h1> 
+        </div>
+    </header>
+
+    <nav>
+        <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+        <ul id="menu-list">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#conoceme">Conóceme</a></li>
+            <li class="dropdown">
+                <a href="#proyectos" onclick="toggleDropdown()">Proyectos</a>
+                <ul class="dropdown-content">
+                    <li><a href="#chilote">Chilote Shoes</a></li>
+                    <li><a href="#otrosproyectos">Otros Proyectos</a></li>
+                    <li><a href="#proximos">Próximos Proyectos</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                </ul>
+            </li>
+            <li><a href="#herramientas">Herramientas</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    
+
+  <section class="subtitulo1">
+    <h2>Bienvenidos a mi Portafolio</h2>
+</section>   
 <!-- texto e imagen  -->
-<div class="container">
-  <div class="text1">
-      <h1>Sobre Mi</h1>
+<div class="container" id="image">
+  <div class="text1"   id="conoceme">
+      <h1>¡Conóceme!</h1>
       <p>
-        Soy Diseñadora de Moda, Gráfica y UX/UI, dueña y creadora de una Tienda de ropa, accesorios, etc, llamada Blarck, me dedico a ser la gestora de e-commerce de mi tienda, creé el logo, me encargo de la publicidad, marketing, editar fotos, etc.
-        Actualmente me he dedicado a realizar proyectos sobre diseño UX/UI en donde he comenzado con la investigación hasta el desarrollo de una Landing Page junto a mis compañeros de curso en una agencia llamada 6 Medios.
+        Soy Romina Angel García, tengo 26 años, soy diseñadora multifuncional de Moda, Gráfica y UX/UI, dueña y creadora de una Tienda de ropa, accesorios, etc, llamada Blarck, me dedico a ser la gestora de <br> e-commerce de mi tienda, diseñé el logo, me encargo de la publicidad, marketing, editar fotos, estampar, sublimar,etc.
+        Actualmente me he dedicado a realizar proyectos sobre diseño UX/UI en donde he comenzado desde el principio con la investigación hasta el desarrollo de una Landing Page, tres proyectos fueron desarrollados en conjunto con mis compañeros de curso en una agencia llamada 6 Medios. El cuarto proyecto fue desarrollado personalmente como proyecto para exámen de certificación en donde creé una marca. 
       </p>
   </div>
   <div class="image">
-      <img src="/assets/Sin título-1.png" alt="Descripción de la imagen">
+      <img src="/assets/Romina.jpg" alt="Descripción de la imagen">
   </div>
 </div>
-  <!-- hero image -->
-  <section class="hero">
-    <div class="hero-content">
-        <h1>Bienvenido a mi Portafolio</h1>
-        <p>Explora mi proyecto de Chilote Shoes</p>
-        <a href="/pdf/Chilote Shoes.pdf" target="_blank" class="project-button">Explorar</a>
+    <section>
+        <div class="responsive-image-container">
+            <img src="/assets/Logo chilote.png" alt="Descripción de la imagen">
+        </div>
+    </section>
+
+    <div class="subtitulo-container">
+        <h2 class="subtitulo">Explora mi Proyecto de Chilote Shoes</h2>
+        <button class="btn" onclick="window.open('/pdf/Chilote Shoes.pdf', '_blank')">Visitar</button>
     </div>
-</section>
+    
 
  <!-- Features Section -->
- <section class="features">
+ <section class="features" id="servicios">
     <h2>Servicios que realizo</h2>
     <div class="features-container">
         <!-- Tarjeta 1 -->
         <div class="feature">
-            <img src="/assets/images.png" alt="Icono 1">
+            <img src="/assets/icon ux.png" alt="Icono 1">
             <h3>UX</h3>
             <p>Diseño de experiencia de usuario.</p>
         </div>
@@ -59,53 +87,73 @@
         </div>
         <!-- Tarjeta 3 -->
         <div class="feature">
-            <img src="/assets/codificacion.png" alt="Icono 3">
+            <img src="/assets/icon html.png" alt="Icono 3">
             <h3>HTML Y CSS</h3>
             <p>Conocimiento y manejo de lenguajes de programación.</p>
         </div>
     </div>
-</section>
-
-
-  <!-- Sección de Proyectos -->
-  <section class="projects-section">
-    <h2>Otros Proyectos</h2>
-    <div class="project-links">
-        <a href="/pdf/Corp. GGV.pdf" target="_blank" class="project-button">Corp. GGV.</a>
-        <a href="/pdf/Maifud.pdf" target="_blank" class="project-button">Maifud</a>
-        <a href="/pdf/Tech Future - Romina Angel.pdf" target="_blank" class="project-button">TechFuture</a>
+</section>    
+    <!-- Iconos Proyectos  -->
+    <section class="features" id="logos">
+        <h2>Explora Otros Proyectos</h2>
+        <div class="features-container">
+            <!-- Tarjeta 1 -->
+            <a href="pdf/Corp. GGV.pdf" target="_blank" class="feature">
+                <img src="/assets/corp.jpg" alt="Icono 1">
+                <p>Corp. Gábriel Gonzales Videla</p>
+            </a>
+            <!-- Tarjeta 2 -->
+            <a href="pdf/Maifud.pdf" target="_blank" class="feature">
+                <img src="/assets/Maifud-03.jpeg" alt="Icono 2">
+                <p>Maifud</p>
+            </a>
+            <!-- Tarjeta 3 -->
+            <a href="pdf/Techfuture.pdf" target="_blank" class="feature">
+                <img src="/assets/intuix-01-01.jpg" alt="Icono 3">
+                <p>Intuix (Techfuture)</p>
+            </a>
+        </div>
+    </section>
+    
+<!-- Iconos de herramientas -->
+<section class="icon-gallery" id="herramientas">
+    <h2>Herramientas</h2>
+    <div class="icon-grid">
+      <div class="icon-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/figma.svg" alt="Figma"></div>
+      <div class="icon-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/adobephotoshop.svg" alt="Photoshop"></div>
+      <div class="icon-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/adobeillustrator.svg" alt="Illustrator"></div>
+      <div class="icon-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/visualstudiocode.svg" alt="Visual Studio Code"></div>
+      <div class="icon-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/github.svg" alt="GitHub"></div>
+      <div class="icon-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/behance.svg" alt="Behance"></div>
+      <div class="icon-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/canva.svg" alt="Canva"></div>
+      <div class="icon-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/octopusdeploy.svg" alt="Octopus"></div>
+      <div class="icon-item">
+        <!-- Ícono genérico para Optimal Workshop -->
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/googleanalytics.svg" alt="Optimal Workshop (Genérico)">
+      </div>
+      <div class="icon-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/trello.svg" alt="Trello"></div>
+      <div class="icon-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/adobexd.svg" alt="Adobe XD"></div>
+      <div class="icon-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/miro.svg" alt="Miro"></div>
+      <div class="icon-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/slack.svg" alt="Slack"></div>
+      <div class="icon-item">
+        <!-- Ícono genérico para Streak -->
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/mailchimp.svg" alt="Streak (Genérico)">
+      </div>
+      <div class="icon-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/notion.svg" alt="Notion"></div>
     </div>
-</section>
-
-<!-- Features Section -->
-<section class="features">
-     <div class="features-container">
-        <!-- Tarjeta 1 -->
-        <section class="feature">
-            <img src="/assets/logo.png" alt="maifud">
-            <p>Corporación Gabriel González Videla</p>
-        </section>
-        <!-- Tarjeta 2 -->
-        <section class="feature">
-            <img src="/assets/Logo-76840054-7-13_54.jpeg" alt="chiloteshoes">
-            <p>Maifud</p>
-        </section>
-        <!-- Tarjeta 3 -->
-        <section class="feature">
-            <img src="/assets/DALL·E 2024-11-05 21.04.56 - A modern and minimalist logo for a technology event. The design includes a stylized tech symbol such as a circuit or digital wave, along with sleek ty.webp" alt="corporacion">
-            <p>TechFuture</p>
-        </section>
+  </section>
+  
+  <section class="proyecto" id="proyectos">
+    <h2>Proximamente</h2>
+    <p>Reconstrucción de una página de wix.</p>
+    <div class="responsive-image-container">
+        <img src="/assets/reconstruccion.png" alt="Descripción de la imagen">
     </div>
-</section>
-
-
-
-
-
-<footer>
-    <div class="footer-container">
+</section>  
+    <footer>
+    <div class="footer-container" id="contacto">
         <div class="contact-info">
-            <p><strong>Teléfono:</strong> <a href="tel:+1234567890">+569 4220 4460</a></p>
+            <p><strong>Teléfono:</strong> <a href="telefono">+569 4220 4460</a></p>
             <p><strong>Email:</strong> <a href="mailto:correo@ejemplo.com">roominaangel@gmail.com</a></p>
         </div>
         <div class="social-media">
