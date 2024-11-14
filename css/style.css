@@ -39,7 +39,7 @@ body {
 }
 
 nav {
-    background-color: #a258a7;
+    background-color: #85448a;
     margin-top: 0px;
     width: 100%;
     top: 0;
@@ -65,7 +65,7 @@ nav a {
     padding: 14px 20px;
     display: block;
     cursor: pointer;
-    background-color: #a258a7;
+    background-color: #85448a;
 }
 
 nav a:hover {
@@ -237,7 +237,7 @@ a {
     width: 100%; /* Se adapta al contenedor */
     height: auto;
     border-radius: 8px;
-    border-color: #a258a7;
+    border-color: #85448a;
     align-items: center;
     justify-content: center;
     margin-top: 50px;
@@ -293,7 +293,7 @@ a {
     padding: 12px 25px;
     font-size: 16px;
     color: #ffffff;
-    background-color: #a258a7;
+    background-color: #85448a;
     border: none;
     border-radius: 8px;
     cursor: pointer;
@@ -374,7 +374,7 @@ a {
 }
 
 .feature {
-    background-color: #a258a7;
+    background-color: #85448a;
     border-radius: 8px;
     padding: 20px;
     width: 300px;
@@ -449,7 +449,7 @@ a {
 }
 
 .project-button:hover {
-    background-color: #a258a7;
+    background-color: #85448a;
 }
 
 /* Responsive para pantallas más grandes */
@@ -524,7 +524,7 @@ a {
 .icon-item:hover {
     transform: scale(1.1);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
-    background-color: #a258a7;
+    background-color: #85448a;
   }
   
 .icon-item img {
@@ -627,5 +627,5 @@ footer h1 {
 }
 
 .social-icon:hover {
-    background-color: #a258a7;
+    background-color: #85448a;
 }
