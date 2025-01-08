@@ -8,10 +8,10 @@
   <meta name="author" content="Romina Angel">
   <link rel="stylesheet" href="/css/style.css">
   <title>Portafolio Romina Angel</title>
-  
-  
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bokor&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -29,7 +29,7 @@
             <li class="dropdown">
                 <a href="#proyectos" onclick="toggleDropdown()">Proyectos</a>
                 <ul class="dropdown-content">
-                    <li><a href="#chilote">Chilote Shoes</a></li>
+                    <li><a href="#chiloteshoes">Chilote Shoes</a></li>
                     <li><a href="#otrosproyectos">Otros Proyectos</a></li>
                     <li><a href="#proximos">Próximos Proyectos</a></li>
                     <li><a href="#servicios">Servicios</a></li>
@@ -49,24 +49,32 @@
   <div class="text1"   id="conoceme">
       <h1>¡Conóceme!</h1>
       <p>
-        Soy Romina Angel García, tengo 26 años, soy diseñadora multifuncional de Moda, Gráfica y UX/UI, dueña y creadora de una Tienda de ropa, accesorios, etc, llamada Blarck, me dedico a ser la gestora de <br> e-commerce de mi tienda, diseñé el logo, me encargo de la publicidad, marketing, editar fotos, estampar, sublimar,etc.
+        Soy Romina Angel García, tengo 26 años, soy diseñadora multifuncional de Moda, Gráfica y UX/UI, dueña y creadora de una Tienda de ropa, accesorios, etc, llamada Blarck, me dedico a ser la gestora de <br> e-commerce de mi tienda, diseñé su logo inspirado en mi gatita Maggie que falleció hace unos meses, me encargo de la publicidad, marketing, editar fotos, estampar, sublimar,etc.
         Actualmente me he dedicado a realizar proyectos sobre diseño UX/UI en donde he comenzado desde el principio con la investigación hasta el desarrollo de una Landing Page, tres proyectos fueron desarrollados en conjunto con mis compañeros de curso en una agencia llamada 6 Medios. El cuarto proyecto fue desarrollado personalmente como proyecto para exámen de certificación en donde creé una marca. 
       </p>
   </div>
   <div class="image">
-      <img src="/assets/Romina.jpg" alt="Descripción de la imagen">
+      <img src="/assets/Romina.jpeg" alt="Descripción de la imagen">
   </div>
 </div>
+
+<!-- gif gato -->
+    <div class="cat">
+      <div class="tail"></div>
+ </div>
+<!-- imagen chilote shoes-->
     <section>
-        <div class="responsive-image-container">
-            <img src="/assets/Logo chilote.png" alt="Descripción de la imagen">
+        <div id="chiloteshoes">
+            <div class="responsive-image-container">
+            <img src="/assets/Logo chilote.png" alt="chiloteshoes">
+            </div>
         </div>
     </section>
-
-    <div class="subtitulo-container">
+<!-- explora mi proyecto-->
+ <div class="subtitulo-container">
         <h2 class="subtitulo">Explora mi Proyecto de Chilote Shoes</h2>
         <button class="btn" onclick="window.open('/pdf/Chilote Shoes.pdf', '_blank')">Visitar</button>
-    </div>
+ </div>
     
 
  <!-- Features Section -->
@@ -94,7 +102,7 @@
     </div>
 </section>    
     <!-- Iconos Proyectos  -->
-    <section class="features" id="logos">
+    <section class="logos" id="otrosproyectos">
         <h2>Explora Otros Proyectos</h2>
         <div class="features-container">
             <!-- Tarjeta 1 -->
@@ -114,7 +122,20 @@
             </a>
         </div>
     </section>
-    
+    <!-- Carrusel logos -->
+        <h1 class="title">Logotipos</h1>
+        <div class="carousel">
+            <div class="carousel-track">
+                <div class="carousel-slide"><img src="/assets/Blarck.jpeg" alt="Logotipo 1"></div>
+                <div class="carousel-slide"><img src="/assets/logo Blarck.png" alt="Logotipo 2"></div>
+                <div class="carousel-slide"><img src="/assets/Logo Berly.png" alt="Logotipo 3"></div>
+                <div class="carousel-slide"><img src="/assets/cristian.png" alt="Logotipo 4"></div>
+            </div>
+            <div class="carousel-buttons">
+                <button class="carousel-button prev">❮</button>
+                <button class="carousel-button next">❯</button>
+            </div>
+        </div>
 <!-- Iconos de herramientas -->
 <section class="icon-gallery" id="herramientas">
     <h2>Herramientas</h2>
@@ -144,8 +165,8 @@
   </section>
   
   <section class="proyecto">
-    <h2>Proximamente</h2>
-    <p>Reconstrucción de una página de wix.</p>
+    <h2>Nuevo Proyecto</h2>
+    <p>Reconstrucción de una página web de wix.</p>
     <div class="responsive-image-container"  id="wix">
         <img src="/assets/reconstruccion.png" alt="Descripción de la imagen">
     </div>
