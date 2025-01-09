@@ -32,15 +32,19 @@ header h1 {  /*Romina Angel titulo*/
 
 
 body {
-    background-color: #333;
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
-    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-image: url('/assets/fondo.jpg'); /* Ruta de tu imagen */
+    background-size: cover; /* Hace que la imagen cubra toda el área */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
 }
+   
+
 
 nav {
-    background-color: #85448a;
+    background-color: #250d27;
     margin-top: 0px;
     width: 100%;
     top: 0;
@@ -66,7 +70,7 @@ nav a {
     padding: 14px 20px;
     display: block;
     cursor: pointer;
-    background-color: #85448a;
+    background-color: #250d27;
 }
 
 nav a:hover {
@@ -240,7 +244,7 @@ a {
     width: 100%; /* Se adapta al contenedor */
     height: auto;
     border-radius: 8px;
-    border-color: #85448a;
+    border-color: #250d27;
     align-items: center;
     justify-content: center;
     margin-top: 50px;
@@ -298,7 +302,7 @@ a {
     padding: 12px 25px;
     font-size: 16px;
     color: #ffffff;
-    background-color: #85448a;
+    background-color: #250d27;
     border: none;
     border-radius: 8px;
     cursor: pointer;
@@ -379,7 +383,7 @@ a {
 }
 
 .feature {
-    background-color: #85448a;
+    background-color: #250d27;
     border-radius: 8px;
     padding: 20px;
     width: 300px;
@@ -455,7 +459,7 @@ a {
 }
 
 .project-button:hover {
-    background-color: #85448a;
+    background-color: #250d27;
 }
 
 /* Responsive para pantallas más grandes */
@@ -619,7 +623,7 @@ a {
 .icon-item:hover {
     transform: scale(1.1);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
-    background-color: #85448a;
+    background-color: #250d27;
   }
   
 .icon-item img {
@@ -729,5 +733,5 @@ footer h1 {
 }
 
 .social-icon:hover {
-    background-color: #85448a;
+    background-color: #250d27;
 }
