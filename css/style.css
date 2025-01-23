@@ -25,14 +25,15 @@ header h1 {  /*Romina Angel titulo*/
     align-items: center;
     justify-content: center;  /* Centrado del contenido */
     padding: 0;
-    background-color: #333;
+    background-color: #000000;
     margin: 0 auto;
     flex-wrap: wrap;  /* Permite que los elementos se ajusten cuando sea necesario */
 }
 
 
 body {
-    margin: 0;
+    margin-bottom: 50px;
+    margin: 0px;
     padding: 0;
     font-family: Arial, sans-serif;
     background-image: url('/assets/fondo.jpg'); /* Ruta de tu imagen */
@@ -44,7 +45,7 @@ body {
 
 
 nav {
-    background-color: #250d27;
+    background-color: #b778d6;
     margin-top: 0px;
     width: 100%;
     top: 0;
@@ -70,7 +71,7 @@ nav a {
     padding: 14px 20px;
     display: block;
     cursor: pointer;
-    background-color: #250d27;
+    background-color: #b778d6;
 }
 
 nav a:hover {
@@ -244,7 +245,7 @@ a {
     width: 100%; /* Se adapta al contenedor */
     height: auto;
     border-radius: 8px;
-    border-color: #250d27;
+    border-color: #b778d6;
     align-items: center;
     justify-content: center;
     margin-top: 50px;
@@ -302,7 +303,7 @@ a {
     padding: 12px 25px;
     font-size: 16px;
     color: #ffffff;
-    background-color: #250d27;
+    background-color: #b778d6;
     border: none;
     border-radius: 8px;
     cursor: pointer;
@@ -360,30 +361,33 @@ a {
 
 
 .features {
-    padding: 20px 20px;
-    background-color: #333;
+    
     text-align: center;
-    margin-bottom: 0;
+    margin-bottom: 40px;
+    
 }
 
 .features h2 {
+    
     font-size: 2em;
     margin-bottom: 20px;
-    margin-top: 0px;
+    margin-top: 20px;
     color: #ffffff;
     font-family: 'Roboto', sans-serif;
 }
 
 .features-container {
+    background-color: #000000;
+    padding-top: 20px;
     display: flex;
     justify-content: center;
     gap: 10px;
     flex-wrap: wrap;
-    color: #878181;
+    color: #000000;
 }
 
 .feature {
-    background-color: #250d27;
+    background-color: #b778d6;
     border-radius: 8px;
     padding: 20px;
     width: 300px;
@@ -415,14 +419,11 @@ a {
     color: #f9f7f7;
 }
 
-
-
 .projects-section {
     text-align: center;
-    padding: 1px;
-    margin: 0;
-    margin-top: 0px;
-    background-color: #333;
+    padding: 0px;
+    margin-top: 10px;
+    margin-bottom: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -440,6 +441,7 @@ a {
 
 /* Contenedor de los botones de proyecto */
 .project-links {
+    
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
@@ -459,7 +461,7 @@ a {
 }
 
 .project-button:hover {
-    background-color: #250d27;
+    background-color: #b778d6;
 }
 
 /* Responsive para pantallas más grandes */
@@ -507,10 +509,12 @@ a {
 /* Carrusel logos */
 /* Título */
 .title {
+    margin-top: 80px;
     margin-bottom: 20px;
     font-size: 2rem;
     color: #f8f8f8;
     text-align: center;
+   
 }
 
 /* Carrusel */
@@ -555,16 +559,17 @@ a {
     background-color: rgba(0, 0, 0, 0.5);
     border: none;
     color: white;
-    font-size: 18px;
+    font-size: 30px;
     cursor: pointer;
+    margin: 0 5px;
     pointer-events: auto;
-    padding: 10px;
-    border-radius: 50%;
+    padding: 15px;
+    border-radius: 0%;
     transition: background-color 0.3s ease;
 }
 
 .carousel-button:hover {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: #b778d6;
 }
 
 /* Responsividad */
@@ -594,8 +599,8 @@ a {
     
 .icon-gallery h2 {
     font-family: 'Roboto', sans-serif;
-    font-size: 24px;
-    color: #d3d1d1;
+    font-size: 30px;
+    color: #ffffff;
     text-align: center;
     margin-top: 0;
 }
@@ -615,7 +620,7 @@ a {
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    background-color: #d3d1d1;
+    background-color: #ffffff;
     transition: background-color 0.1s;
     text-decoration: none;
 }
@@ -623,7 +628,7 @@ a {
 .icon-item:hover {
     transform: scale(1.1);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
-    background-color: #250d27;
+    background-color: #b778d6;
   }
   
 .icon-item img {
@@ -634,25 +639,30 @@ a {
 
 .proyecto {
 
-    background-color: #333;
+    
     text-align: center;
     margin-bottom: 20px;
     margin-top: 50px;
+    
 }
  .proyecto h2 {
     color: rgb(213, 212, 212);
+    background-color: #000000;
     font-size: 2em;
-    margin-top: 50px;
-    margin-bottom: 20px;
+    padding: 20px;
+    margin: 0px;
+    margin-bottom: 0px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     
  } 
  .proyecto p { 
     color: rgb(210, 208, 208);
+    background-color: #000000;
     font-size: 1em;
-    margin-top: 0px;
-    margin-bottom: 20px;
+    margin: 0px;
+    padding: 20px;
+    margin-bottom: 0px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
    
@@ -662,6 +672,10 @@ a {
     height: auto;     /* Mantiene la relación de aspecto original */
     max-width: 100%;  /* Asegura que no crezca más allá del tamaño original */
     display: block;   /* Evita el espacio debajo de la imagen */
+    margin-bottom: 50px;
+    margin-top: 0px;
+
+    
 }
 
 
@@ -725,7 +739,7 @@ footer h1 {
     height: 40px;
     justify-content: center;
     align-items: center;
-    background-color: #555;
+    background-color: #c3c3c3;
     border-radius: 50%;
     color: #fff;
     transition: background-color 0.1s;
@@ -733,5 +747,5 @@ footer h1 {
 }
 
 .social-icon:hover {
-    background-color: #250d27;
+    background-color: #b778d6;
 }
