@@ -15,7 +15,6 @@ header h1 {  /*Romina Angel titulo*/
     text-align: center;
     margin-top: 10px; /* Revisa este margen */
     margin-bottom: 5px;
-
     color: #ffffff;
     font-family: 'Bokor', sans-serif;
     font-size: 25px;
@@ -25,7 +24,7 @@ header h1 {  /*Romina Angel titulo*/
     display: flex;
     align-items: center;
     justify-content: center;  /* Centrado del contenido */
-    padding: 0;
+    padding-bottom: 40px;
     background-color: #000000;
     margin: 0 auto;
     flex-wrap: wrap;  /* Permite que los elementos se ajusten cuando sea necesario */
@@ -222,7 +221,7 @@ a {
     flex: 1;
     padding-right: 50px;
     margin-left: 20px;
-    color: rgb(195, 221, 244);
+    color: #f0f0f0;
     margin-top: 0px;
     font-family: 'Roboto', sans-serif;
 }
@@ -293,7 +292,9 @@ a {
 .subtitulo-container {
     text-align: center;
     margin-top: 50px;
-    
+    background-color: #000000;
+    padding-bottom: 60px;
+    margin-bottom: 0px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -308,7 +309,7 @@ a {
 
 .btn {
     padding: 12px 25px;
-    font-size: 16px;
+
     color: #ffffff;
     background-color: #b778d6;
     border: none;
@@ -366,12 +367,10 @@ a {
 }
 
 
-
 .features {
     
     text-align: center;
-    margin-bottom: 40px;
-    
+    margin-bottom: 0px;
     
 }
 
@@ -380,8 +379,8 @@ a {
     font-size: 2em;
     margin-bottom: 0px;
     background-color: #000000;
-    padding: 10px;
-    margin-top: 0%;
+    padding: 30px;
+    margin-top: 0px;
     color: #ffffff;
     font-family: 'Roboto', sans-serif;
 }
@@ -513,6 +512,7 @@ a {
 }
 
 .feature {
+    padding-bottom: 20px;
     margin-bottom: 20px; /* Espacio entre las tarjetas */
 }
 
@@ -522,7 +522,7 @@ a {
 /* Título */
 .title {
 
-    margin-bottom: 20px;
+    margin: 0px;
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 2rem;
@@ -536,11 +536,9 @@ a {
 
 .carousel {
     position: relative;
-    
     margin: 0 auto; /* Esto asegura que el carrusel esté centrado horizontalmente */
     width: 90%;
     max-width: 800px;
-    
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(228, 228, 228, 0.1);
@@ -548,7 +546,6 @@ a {
 }
 .carousel-track {
     display: flex;
-    
     transition: transform 0.5s ease-in-out;
 }
 
@@ -690,6 +687,7 @@ a {
     font-family: 'Roboto', sans-serif;
    
  }
+
 #wix {
     width: 100%;      /* La imagen ocupará el 100% del contenedor */
     height: auto;     /* Mantiene la relación de aspecto original */
