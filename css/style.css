@@ -15,6 +15,7 @@ header h1 {  /*Romina Angel titulo*/
     text-align: center;
     margin-top: 10px; /* Revisa este margen */
     margin-bottom: 5px;
+
     color: #ffffff;
     font-family: 'Bokor', sans-serif;
     font-size: 25px;
@@ -221,7 +222,7 @@ a {
     flex: 1;
     padding-right: 50px;
     margin-left: 20px;
-    color: aliceblue;
+    color: rgb(195, 221, 244);
     margin-top: 0px;
     font-family: 'Roboto', sans-serif;
 }
@@ -232,6 +233,8 @@ a {
     font-size: 17px;
     font-family: 'Roboto', sans-serif;
     font-style: italic;
+    
+    
 }
 
 /* Lado derecho */
@@ -284,17 +287,21 @@ a {
     color: aliceblue;
     font-family: 'Roboto', sans-serif;
     font-size: 35px;
+    
 }
 
 .subtitulo-container {
     text-align: center;
     margin-top: 50px;
+    
     font-family: 'Roboto', sans-serif;
 }
 
 .subtitulo {
     font-size: 2em;
     color: #ffffff;
+    padding: 10px;
+    background-color: #000000;
     margin-bottom: 20px;
     font-family: 'Roboto', sans-serif;
 }
@@ -365,13 +372,16 @@ a {
     text-align: center;
     margin-bottom: 40px;
     
+    
 }
 
 .features h2 {
     
     font-size: 2em;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-bottom: 0px;
+    background-color: #000000;
+    padding: 10px;
+    margin-top: 0%;
     color: #ffffff;
     font-family: 'Roboto', sans-serif;
 }
@@ -386,7 +396,7 @@ a {
     color: #000000;
 }
 
-.feature {
+.feature { /*link para proyectos*/
     background-color: #b778d6;
     border-radius: 8px;
     padding: 20px;
@@ -417,6 +427,7 @@ a {
 .feature p {
     font-size: 1em;
     color: #f9f7f7;
+    
 }
 
 .projects-section {
@@ -485,8 +496,9 @@ a {
 }
 .logos h2 {
     font-size: 2em;
-    margin-bottom: 20px;
-    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    background-color: #000000;
     color: #ffffff;
     font-family: 'Roboto', sans-serif;
     text-align: center;
@@ -509,20 +521,26 @@ a {
 /* Carrusel logos */
 /* Título */
 .title {
-    margin-top: 80px;
+
     margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-size: 2rem;
+    background-color: #000000;
     color: #f8f8f8;
     text-align: center;
    
 }
 
 /* Carrusel */
+
 .carousel {
     position: relative;
+    
     margin: 0 auto; /* Esto asegura que el carrusel esté centrado horizontalmente */
     width: 90%;
     max-width: 800px;
+    
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(228, 228, 228, 0.1);
@@ -530,12 +548,15 @@ a {
 }
 .carousel-track {
     display: flex;
+    
     transition: transform 0.5s ease-in-out;
 }
 
 .carousel-slide {
     min-width: 100%;
     overflow: hidden;
+    
+    
 }
 
 .carousel-slide img {
@@ -591,9 +612,11 @@ a {
     }
 }
 .icon-gallery {
-    text-align: center;
+    background-color: #000000;
     margin: 10px;
-    margin-top: 0px;
+    text-align: center;
+    padding: 30px;
+    margin-top: 10px;
     margin-bottom: 100px;
 }   
     
@@ -675,7 +698,7 @@ a {
     margin-bottom: 50px;
     margin-top: 0px;
 
-    
+
 }
 
 
